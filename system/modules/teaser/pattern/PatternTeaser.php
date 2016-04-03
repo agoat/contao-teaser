@@ -17,8 +17,6 @@ namespace Contao;
  
 class PatternTeaser extends \Pattern
 {
-
-
 	/**
 	 * generate the DCA construct
 	 */
@@ -37,7 +35,6 @@ class PatternTeaser extends \Pattern
 			$this->Database->prepare("UPDATE tl_content SET teaser=? WHERE id=?")
 						   ->execute($this->teaser, $this->cid);
 		}
-		
 	}
 	
 
@@ -78,5 +75,4 @@ class PatternTeaser extends \Pattern
 			parent::compile(\NewsTeaser::getLink($this->cpid));
 		}
 	}
-	
 }
