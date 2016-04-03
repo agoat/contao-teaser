@@ -8,13 +8,10 @@
  */
  
  
-
- 
 /**
  * Palettes
  */
 $GLOBALS['TL_DCA']['tl_content_pattern']['palettes']['teaser'] = '{type_legend},type;{teaser_legend},teaser,canChangeTeaser;{readmorelink_legend},alias;{invisible_legend},invisible';
-
 
 // Fields
 $GLOBALS['TL_DCA']['tl_content_pattern']['fields']['teaser'] = array
