@@ -18,14 +18,14 @@
 ClassLoader::addClasses(array
 (
 	// Classes
-	'Contao\\ArticleTeaser' 		=> 'system/modules/teaser/classes/ArticleTeaser.php',
-	'Contao\\NewsTeaser' 			=> 'system/modules/teaser/classes/NewsTeaser.php',
+	'Contao\\ArticleTeaser' 	=> 'system/modules/teaser/classes/ArticleTeaser.php',
+	'Contao\\NewsTeaser' 		=> 'system/modules/teaser/classes/NewsTeaser.php',
 
 	// Pattern
-	'Contao\\PatternTeaser' 		=> 'system/modules/teaser/pattern/PatternTeaser.php',
+	'Contao\\PatternTeaser' 	=> 'system/modules/teaser/pattern/PatternTeaser.php',
 
 	// Hook
-	'Contao\\Teaser' 				=> 'system/modules/teaser/classes/Teaser.php'
+	'Contao\\Teaser' 		=> 'system/modules/teaser/classes/Teaser.php'
 ));
 
 
