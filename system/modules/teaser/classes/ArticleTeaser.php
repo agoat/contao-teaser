@@ -1,21 +1,14 @@
 <?php
 
 /**
- * Contao Open Source CMS
+ * Contao Open Source CMS Extension
  *
- * Copyright (c) 2005-2015 Leo Feyer
- *
- * @package  	 ReadMore
+ * @package  	 Teaser (Content block pattern)
  * @author   	 Arne Stappen
  * @license  	 LGPL-3.0+ 
- * @copyright	 Arne Stappen 2015
-
-
-
+ * @copyright	 Arne Stappen (2016)
  */
  
-
-
 namespace Contao;
 
 
@@ -40,7 +33,4 @@ class ArticleTeaser extends News
 
 		return $this->strLink;		
 	}
-	
 }
-
-
