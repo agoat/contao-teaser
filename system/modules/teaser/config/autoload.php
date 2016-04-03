@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Contao Open Source CMS Extension
  *
