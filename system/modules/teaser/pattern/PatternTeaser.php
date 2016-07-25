@@ -64,11 +64,13 @@ class PatternTeaser extends \Pattern
 		// generate a readmore link
 		if ($this->cptable == 'tl_article')
 		{
-			parent::compile(\ArticleTeaser::getLink($this->cpid));
+			$articleTeaser = new ArticleTeaser();
+			$this->writeToTemplate($articleTeaser->generateLink($this->cpid));
 		}
 		elseif ($this->cptable == 'tl_news')
 		{
-			parent::compile(\NewsTeaser::getLink($this->cpid));
+			$newsTeaser = new NewsTeaser();
+			$this->writeToTemplate($newsTeaser->generateLink($this->cpid));
 		}
 	}
 }
