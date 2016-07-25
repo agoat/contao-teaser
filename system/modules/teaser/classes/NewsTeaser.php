@@ -12,11 +12,11 @@
 namespace Contao;
 
 
-class NewsTeaser extends News
+class NewsTeaser extends \News
 {
 	protected $strLink = false;
 
-	public function getLink($intId) 
+	public function generateLink($intId) 
 	{ 
 		if ($this->strLink)
 		{
